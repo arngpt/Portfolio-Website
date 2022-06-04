@@ -1,0 +1,193 @@
+head:
+    title: "Portfolio Arnav Gupta"
+  
+  # showcase
+showcase:
+  enable: true
+  title: "Hello, I’m Arnav Gupta."
+  subtitle: "An Aspriring Data Scientist"
+  description: "I am a Data professional currently interning at COTIVITI Inc as a Machine Learning Intern. I have worked at Merkle Inc as a software developer and have experience working on languages such as Python,Tensorflow, Keras, and Trax, as well as tools such as Redpoint, Salesforce, Tableau, Bitbucket, Hue and DataRobots. I believe in getting 1% better every day and consistently learning. I am looking to contribute my skills in Natural Language Processing, Machine Learning, and Deep Learning in a real-world setting. I’ve worked in various environments, right from fast-paced to casual."
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact Arnav"
+    URL: "mailto:arg5956@psu.edu"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/arnav-gupta-131162171/"
+
+    - icon: "github"
+      URL: "https://github.com/arngpt"
+
+    - icon: "twitter"
+      URL: "https://twitter.com/ArnavGu25774294"
+
+
+
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: 
+    <p class="lead">
+    <strong>I am a Graduate Student at Penn State University, pursuing my master's in Data Analytics, and have completed my bachelor's in Information Technology in 2020. Working on Data, Analysis of Data, Machine Learning, and Deep Learning are key parts of my learning curve and career goals. I have applied these skills to several of my projects and I am also currently getting good industry experience in using these skills with Cotiviti Inc. I enjoy solving business problems and gaining insights with data-driven solutions.</strong> I am a huge fan of Cricket and Soccer. I also like to spend my time reading self-improvement books as well as getting to know more about personal finance and money management techniques. Recently the stock market has also got my focus and I am keen on learning more about this.
+        </p>
+    <p class="lead">
+    <strong>As an aspiring data scientist, my goal is to use data to help businesses and organizations make better decisions. I want to apply data science to help businesses and organizations increase performance.</strong>
+    </p>
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.linkedin.com/in/arnav-gupta-131162171/"
+  image:
+    x: "img/works/profile_picture1.jpg"
+    _2x: "img/works/profile_picture1.jpg"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "An Aspriring Data Scientist, focused on learning new technologies and has experience working as a Software Developer and Machine Learning Intern."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/arnav-gupta-131162171/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "View My Resume"
+    URL: "https://drive.google.com/file/d/1eB54oBDCrZddNtVhlzjGItlc2VOE-C6J/view?usp=sharing"
+
+  items:
+    - title: "Machine Learning Intern"
+      company: "Cotiviti Inc"
+      duration: "May 2022 - Aug 2022"
+
+    - title: "Graduate Research Assistant"
+      company: "Penn State University"
+      duration: "Oct 2021 - Current"
+
+    - title: "Associate Software Engineer"
+      company: "Ugam Solutions/ Markle Inc"
+      duration: "Nov 2020 - May 2021"
+
+    - title: "Software Intern"
+      company: "Indian Railways"
+      duration: "Jun 2018 - Jun 2018"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "Penn State University Great Valley"
+      year: "2021-2022"
+      degree: "Master of Science - Data Analytics"
+      
+    - university: "Mumbai University/KSCE"
+      year: "2016-2020"
+      degree: "Bachelor of Technology - Information Technology Engineering"
+
+
+
+# Client & Work
+client_and_work:
+  title: "Portfolio"
+  enable: true
+  
+  enable_clients: false
+  clients:
+    - logo:
+        x: "img/clients/asgardia.png"
+        _2x: "img/clients/asgardia@2x.png"
+      alt: "Asgardia"
+
+    - logo:
+        x: "img/clients/earth-2.png"
+        _2x: "img/clients/earth-2@2x.png"
+      alt: "Earth 2.0"
+
+    - logo:
+        x: "img/clients/goldline.png"
+        _2x: "img/clients/goldline@2x.png"
+      alt: "Goldline"
+
+    - logo:
+        x: "img/clients/kanba.png"
+        _2x: "img/clients/kanba@2x.png"
+      alt: "Kanba"
+
+    - logo:
+        x: "img/clients/zoo-tv.png"
+        _2x: "img/clients/zoo-tv@2x.png"
+      alt: "Zoo"
+
+    - logo:
+        x: "img/clients/ztos.png"
+        _2x: "img/clients/ztos@2x.png"
+      alt: "Ztos"
+
+  works:
+
+
+    - title: "Video Object Removal"
+      description: "The project's goal was a video inpainting task where we removed a target object from a video and recreated the background. Some objects, such as a chair or ball, can be removed directly, whereas, for other objects, images of the target object need to be provided. Using YOLO or Mask-CNN, objects were detected and removed, and then the background image was inpainted using deep learning. "
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Visit Github Repository"
+        URL: "https://github.com/arngpt/Vornet"
+      image:
+        x: "img/works/horse2.gif"
+        _2x: "img/works/horse2.gif"
+      is_even: true
+
+    - title: "Song Conversion using Speech-to-Speech Neuro-Style Transfer"
+      description: "This project aims to reproduce a specific target singer’s voice, given input such as a musical score with lyrics. This was done in three steps. First, the input song was split into its vocal and music components. Then the vocals were converted into target audio using neuro-style transfer. After this, we merged both the target audio and the music to create the final output."
+      button:
+        icon: "icon"
+        btnText: "Visit Github Repository!!"
+        URL: "https://github.com/arngpt/Song-Conversion-using-Speech-to-Speech-Neuro-Style-Transfer"
+      image:
+        x: "img/works/Neuro2.jpg"
+        _2x: "img/works/Neuro2.jpg"
+      is_even: true
+
+
+    - title: "Walmart Price prediction"
+      description: "Performed exploratory data analysis on a Walmart Dataset and then, using Machine Learning techniques and data manipulation, predicted weekly sales in stores for a week. Additionally, weekly sales of particular Departments in the US are forecasted and based on these predictions, and the store can optimize inventory, staff, etc."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Visit Github Repository"
+        URL: "https://github.com/arngpt/Walmart-Price-Predictions"
+      image:
+        x: "img/works/walmart1.png"
+        _2x: "img/works/walmart1.png"
+      is_even: true
+
+
+
+
+# contact
+contact:
+  enable: true
+  title: "Contact Arnav"
+    
+  image:
+    x: "img/works/profile_picture2.jpeg"
+    _2x: "img/works/profile_picture2.jpeg"
+    #"C:\Users\warri\OneDrive\Documents\portfolio site\Arnav Portfolio\themes\raditian-free-hugo-theme-data-science\static\img\works\profile_picture2.jpeg" 
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+    btnAction: 'mailto:arg5956@psu.edu'
+    
+  phone:
+    title: "Phone Number"
+    number: "484-320-9055"
+  email:
+    title: "Email"
+    email: '<a href="mailto:arg5956@psu.edu">arg5956@psu.edu</a>'
+  address:
+    title: "Address"
+    address: "27E Central Ave Apt M3, Paoli,PA 19301"
